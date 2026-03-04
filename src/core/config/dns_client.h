@@ -115,10 +115,10 @@
  *
  * It MUST be a C string representation of the server IPv6 address.
  *
- * Default value is set to "2001:4860:4860::8888" which is the Google Public DNS IPv6 address.
+ * Default value is set to "2620:fe::fe" which is the Quad9 DNS IPv6 address.
  */
 #ifndef OPENTHREAD_CONFIG_DNS_CLIENT_DEFAULT_SERVER_IP6_ADDRESS
-#define OPENTHREAD_CONFIG_DNS_CLIENT_DEFAULT_SERVER_IP6_ADDRESS "2001:4860:4860::8888"
+#define OPENTHREAD_CONFIG_DNS_CLIENT_DEFAULT_SERVER_IP6_ADDRESS "2620:fe::fe"
 #endif
 
 /**
